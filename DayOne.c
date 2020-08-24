@@ -16,7 +16,7 @@ int main(void)
     ssize_t read = 0;
     int32_t sum = 0;
 
-    if ((fuel = fopen("input.txt", "r")) == NULL)
+    if ((fuel = fopen("DayOne_Input.txt", "r")) == NULL)
     {
         printf("Welp, messed that up...\n");
 
